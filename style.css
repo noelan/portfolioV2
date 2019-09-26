@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courgette|Didact+Gothic|Fredoka+One|Noto+Sans+SC|Quattrocento&display=swap');
 
+/* Font class and color */
+
 .workSans {
 	font-family:'Didact Gothic';
 }
@@ -10,12 +12,10 @@
 	font-family: 'Courgette';
 }
 
-.myImg {
-	border-radius: 5px;
-	border: solid;
-	border-color: #6495ED;
-	border-width:0.1px;
+.myWhite {
+	color:#DAC9C9;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -40,29 +40,7 @@ hr {
 	border-color:grey;
 }
 
-.aPropos {
-	font-size: 2rem;
-	font-family: 'Courgette';
-}
-
-.myWhite {
-	color:#DAC9C9;
-}
-.myProject {
-	background-color: #2E2929;
-}
-
-.contactMe {
-	background-color: #FFFEF6;
-}
-
-.footerP {
-	padding-right: 3rem;
-	color: grey;
-}
-
 html, body {
-	padding-top: 33rem;
 	width: 100%;
 	height: 100%;
 	background-color: #3A3232;
@@ -71,9 +49,19 @@ html, body {
 img {
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 	position: absolute;
-	top:0px;
-	z-index: 0;
+}
+
+li {
+	padding-left: 3rem;
+}
+
+/* Header Image */ 
+.headerDiv {
+	position: relative;
+	width: 100%;
+	height :100%;
 }
 
 .noelAn {
@@ -101,6 +89,7 @@ img {
 	transform: translate(-50%, -70%);
 }
 
+/* Navbar */
 .myA {
 	font-family: 'Work Sans';
 	font-size: 1.2rem;
@@ -114,10 +103,56 @@ img {
     top: 0px;
 }
 
-li {
-	padding-left: 3rem;
+
+/* About me section */
+.aboutMe {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	position: relative;
 }
 
+.aboutMeDiv {
+	text-align:center;
+	padding-top: 5%;
+}
+
+.aPropos {
+	font-size: 2rem;
+	font-family: 'Courgette';
+}
+
+.presentation {
+	font-size: 1.3rem;
+}
+
+/* Projects section */
+.myProject {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #2E2929;
+	position: relative;position: relative;
+}
+
+.myImg {
+	border-radius: 5px;
+	border: solid;
+	border-color: #6495ED;
+	border-width:0.1px;
+}
+
+/* footer */
+.contactMe {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #FFFEF6;
+}
+
+.footerP {
+	padding-right: 3rem;
+	color: grey;
+}
+
+/* Progress Bar */
 .progress-title{
     font-size: 18px;
     font-weight: 700;
@@ -178,4 +213,3 @@ li {
 @keyframes animate-positive{
     0%{ width: 0; }
 }
-

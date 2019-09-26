@@ -1,33 +1,36 @@
 <?php include_once 'header.php' ?>
 <body class="hero flex-center">
-<?php include_once 'navbar.php' ?>		<div>
-		<img src="https://images.pexels.com/photos/1111319/pexels-photo-1111319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+<?php include_once 'navbar.php' ?>
+<div>		
+	<div class="headerDiv">
+		<img  src="https://images.pexels.com/photos/1111319/pexels-photo-1111319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" >
 		<div class="myName">
 			<p class="noelAn">Noël AN</p>
 			<p class="DevWeb">Développeur web junior PHP SYMFONY</p>
 		</div>
 	</div>
-	<div class="container-fluid" id="apropos">
-	    <div class="row">
-	    	<div class="col-4 offset-lg-1">
-				<h1 class="aPropos text-center myWhite">About me</h2><br>
-				<p class="text-justify workSans myWhite">
+	<div class="aboutMe container-fluid" id="apropos">
+		<div class="row justify-content-around">
+	    	<h1 class="aPropos text-center myWhite">About me</h1>
+	    	<h1 class="aPropos text-center myWhite">Compétences</h1>
+	    </div>
+	    	<div class="row">
+	    	<div class="aboutMeDiv col-lg-4 offset-lg-1">
+				<p class="text-justify workSans presentation">
 					Bonjour je me présente Noël AN. Après avoir travailler principalement dans la restauration et la logistique, j'ai décider de me reconvertir dans un domaine qui m'a toujours passioné, le devéloppement Web.
 				</p>
-				<p class="text-justify workSans myWhite">
+				<p class="text-justify workSans presentation">
 					J'ai effectué une formation de développeur web chez la Wild Code School qui m'a permis de découvrir ce métier et me spécialiser en PHP Symfony.
 				</p>
-				<p class="text-justify workSans myWhite">
+				<p class="text-justify workSans presentation">
 					De nature curieux et déterminé je fais en sorte d'approfondir mes connaissances quotidiennement et je quitte diffilement un projet sur un message d'erreur.
 				</p>
 			</div>	
-	        <div class="col-5 offset-lg-1">
-	        	<h1 class="aPropos text-center myWhite">Compétences</h1>
+	        <div class="col-5 offset-lg-1">       	
 	        	<h3 class="progress-title">Symfony</h3>
 	            <div class="progress">
 	                <div class="progress-bar" style="width:75%; background:#0275d8">
-	                    <span class="progress-icon fa fa-rocket"></span>
-	                    
+	                    <span class="progress-icon fa fa-rocket"></span>	                    
 	                </div>
 	            </div>
 	            <h3 class="progress-title">PHP</h3>
@@ -57,8 +60,8 @@
 	        </div>   
 	    </div>
 	</div>
-	<div class="myProject" id="project"><br>
-		<h1 class="workSans myWhite text-center">Expériences et projets</h1><br><br>
+	<div class="myProject" id="project">
+		<h1 class="workSans myWhite text-center">Expériences et projets</h1>
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-8">
@@ -101,16 +104,16 @@
 			</div>
 		</div><br>
 	</div>
-	<div class="contactMe" id="contactme"><br>
-		<h3 class="courgette text-center" style="color:black;">Me contacter</h1><br>
+	<div class="contactMe" id="contactme">
+		<h3 class="courgette text-center" style="color:black;">Me contacter</h3>
 		<div class="row justify-content-center">
 			<p class="footerP"><i class="far fa-envelope"></i> Gmail : noel.an.lyon@gmail.com</p>
 			<p class="footerP"><i class="fas fa-phone-square"></i> Tel : 06 83 07 54 48</p>
 			<a href="https://www.linkedin.com/in/noel-an-704482186/"><p class="footerP"><i class="fas fa-phone-square"></i> Linkedin </p></a>
 		</div>
 	</div>
+	</div>	
 </body>
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
