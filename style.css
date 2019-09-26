@@ -30,6 +30,8 @@ html {
 body {
 	font-family: 'Roboto Mono';
 	color:#DAC9C9;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -106,6 +108,7 @@ li {
 
 /* About me section */
 .aboutMe {
+	width: 100%;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	position: relative;
@@ -148,7 +151,6 @@ li {
 }
 
 .footerP {
-	padding-right: 3rem;
 	color: grey;
 }
 
