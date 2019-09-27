@@ -17,13 +17,13 @@
 	    	<div class="row">
 	    	<div class="aboutMeDiv col-lg-4 col-sm-12 offset-lg-1">
 				<p class="text-justify workSans presentation">
-					Bonjour je me présente Noël AN. Après avoir travailler principalement dans la restauration et la logistique, j'ai décider de me reconvertir dans un domaine qui m'a toujours passioné, le devéloppement Web.
+					Bonjour je me présente Noël AN. Après avoir travaillé principalement dans la restauration et la logistique, j'ai décidé de me reconvertir dans un domaine qui m'a toujours passionné, le devéloppement Web.
 				</p>
 				<p class="text-justify workSans presentation">
-					J'ai effectué une formation de développeur web chez la Wild Code School qui m'a permis de découvrir ce métier et me spécialiser en PHP Symfony.
+					J'ai effectué une formation de développeur web à la Wild Code School qui m'a permis de découvrir ce métier et me spécialiser en PHP Symfony.
 				</p>
 				<p class="text-justify workSans presentation">
-					De nature curieux et déterminé je fais en sorte d'approfondir mes connaissances quotidiennement et je quitte diffilement un projet sur un message d'erreur.
+					Étant curieux et déterminé je fais en sorte d'approfondir mes connaissances quotidiennement et je quitte difficilement un projet sur un message d'erreur :) .
 				</p>
 			</div>	
 	        <div class="col-lg-5 offset-lg-1 col-sm-12">       	
@@ -72,8 +72,8 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-8 col-sm-12">
 					<h3 class="aPropos text-center">Funny Shop</h3>
-					<p>Site de E commerce 'bac à sable' créer pour parfaire mes compétences et principalement avec le framework Symfony.</p>
-					<p>Mise en place de mail automatique lors de l'inscription, interface d'administration (CRUD), panier d'achat et en constante évolution !</p>
+					<p>Site de E commerce 'bac à sable' créé pour parfaire mes compétences et principalement avec le framework Symfony.</p>
+					<p>Mise en place de mail automatique lors de l'inscription, interface d'administration (CRUD), panier d'achat actuellement en constante évolution !</p>
 					<a href="http://noel-an-fr.mon.world/funnyshop/public/index.php"><p class="text-center">Celui-ci est en ligne !</p></a>
 				<div class="text-center">
 					<p class="btn btn-primary">Symfony</p>
@@ -104,8 +104,8 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-8 col-sm-12">
 					<h3 class="aPropos text-center">Site de solfège débutant</h3>
-					<p>Site réalisé en parallèle de la formation permettant d'apprendre le solfège à travers des minis jeux.</p>
-					<p>Ce projet a été réalisé afin découvrir et approfondir le Javascript Vanilla</p>
+					<p>Site réalisé en parallèle de la formation permettant d'apprendre le solfège à travers des mini-jeux.</p>
+					<p>Ce projet a été réalisé afin découvrir de et approfondir le Javascript Vanilla</p>
 				<div class="text-center">
 					<p class="btn btn-warning">Javascript Vanilla</p>
 				</div>
