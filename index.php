@@ -105,7 +105,7 @@
 						<h3 class="aPropos text-center">Funny Shop</h3>
 						<p>Site de E commerce 'bac à sable' créé pour parfaire mes compétences et principalement avec le framework Symfony.</p>
 						<p>Mise en place de mail automatique lors de l'inscription, interface d'administration (CRUD), panier d'achat actuellement en constante évolution !</p>
-						<a href="http://noel-an-fr.mon.world/funnyshop/public/index.php">
+						<a href="http://noel-an-fr.mon.world/clothA/public/index.php">
 							<p class="text-center">Celui-ci est en ligne !</p>
 						</a>
 						<div class="text-center">
