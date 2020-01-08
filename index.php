@@ -10,75 +10,25 @@
 				<p class="DevWeb">Développeur web</p>
 			</div>
 		</div>
-		<div class="aboutMe container-fluid" id="apropos">
-			<div class="row justify-content-around">
-				<h1 class="aPropos text-center myWhite">About me</h1>
-				<h1 class="aPropos text-center myWhite">Compétences</h1>
-			</div>
-			<div class="row">
-				<div class="aboutMeDiv col-lg-4 col-sm-12 offset-lg-1">
-					<p class="text-justify workSans presentation">
-						Bonjour je me présente Noël AN. Après avoir travaillé principalement dans la restauration et la logistique, j'ai décidé de me reconvertir dans un domaine qui m'a toujours passionné, le devéloppement Web.
-					</p>
-					<p class="text-justify workSans presentation">
-						J'ai effectué une formation de développeur web à la Wild Code School qui m'a permis de découvrir ce métier et me spécialiser en PHP Symfony.
-					</p>
-					<p class="text-justify workSans presentation">
-						Je continu de m'auto-former je me perfectionne sur React et Api Platform actuellement
-					</p>
-					<p class="text-justify workSans presentation">
-						Étant curieux et déterminé je fais en sorte d'approfondir mes connaissances quotidiennement et je quitte difficilement un projet sur un message d'erreur :) .
-					</p>
-				</div>
-				<div class="col-lg-5 offset-lg-1 col-sm-12">
-					<h3 class="progress-title">Symfony</h3>
-					<div class="progress">
-						<div class="progress-bar" style="width:75%; background:#0275d8">
-							<span class="progress-icon fa fa-rocket"></span>
-						</div>
-					</div>
-					<h3 class="progress-title">PHP</h3>
-					<div class="progress">
-						<div class="progress-bar" style="width:80%; background:#5bc0de;">
-							<span class="progress-icon fa fa-rocket" style="border-color:#6495ED;"></span>
-						</div>
-					</div>
-					<h3 class="progress-title">React</h3>
-					<div class="progress green">
-						<div class="progress-bar" style="width:60%; background:#5cb85c ;">
-							<span class="progress-icon fa fa-rocket "></span>
-						</div>
-					</div>
-					<h3 class="progress-title">HTML5/CSS3</h3>
-					<div class="progress grey">
-						<div class="progress-bar" style="width:85%; background:#f7f7f7;">
-							<span class="progress-icon fa fa-rocket" style="border-color:grey;"></span>
-						</div>
-					</div>
-					<h3 class="progress-title">Javascript Vanilla</h3>
-					<div class="progress orange">
-						<div class="progress-bar" style="width:70%; background:#f0ad4e;">
-							<span class="progress-icon fa fa-rocket"></span>
-						</div>
-					</div>
-					<h3 class="progress-title">Api Platform</h3>
-					<div class="progress">
-						<div class="progress-bar" style="width:60%; background:#006363;">
-							<span class="progress-icon fa fa-rocket" style="border-color: #006363;color:#006363;"></span>
-						</div>
-					</div>
-					<h3 class="progress-title">Git</h3>
-					<div class="progress">
-						<div class="progress-bar" style="width:75%; background:#DB6363;">
-							<span class="progress-icon fa fa-rocket" style="border-color: #DB6363;color:#DB6363;"></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="myProject" id="project">
 			<h1 class="workSans myWhite text-center font-weight-bold">Expériences et projets</h1><br>
 			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-sm-12">
+						<h3 class="aPropos text-center">Stage chez Senzu ( 1 mois )</h3>
+						<p>Création d'une application Android permettant d'utiliser les
+							données des puces NFC.</p>
+						<p>Prise en main du logiciel Android studio</p>
+						<div class="text-center">
+							<p class="btn btn-primary">Android Studio</p>
+							<p class="btn btn-secondary">Java</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-12">
+						<img class="myImg" src="https://images.pexels.com/photos/226664/pexels-photo-226664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+					</div>
+				</div>
+				<hr>
 				<div class="row justify-content-center">
 					<div class="col-lg-8 col-sm-12">
 						<h3 class="aPropos text-center">Tutoriels book !</h3>
@@ -153,6 +103,73 @@
 				</div>
 			</div><br>
 		</div>
+		<div class="aboutMe container-fluid" id="apropos">
+			<div class="row justify-content-around">
+				<h1 class="aPropos text-center myWhite">About me</h1>
+				<h1 class="aPropos text-center myWhite">Compétences</h1>
+			</div>
+			<div class="row">
+				<div class="aboutMeDiv col-lg-4 col-sm-12 offset-lg-1">
+					<p class="text-justify workSans presentation">
+						Bonjour je me présente Noël AN. Après avoir travaillé principalement dans la restauration et la logistique, j'ai décidé de me reconvertir dans un domaine qui m'a toujours passionné, le devéloppement Web.
+					</p>
+					<p class="text-justify workSans presentation">
+						J'ai effectué une formation de développeur web à la Wild Code School qui m'a permis de découvrir ce métier et me spécialiser en PHP Symfony.
+					</p>
+					<p class="text-justify workSans presentation">
+						Je continu de m'auto-former je me perfectionne sur React et Api Platform actuellement
+					</p>
+					<p class="text-justify workSans presentation">
+						Étant curieux et déterminé je fais en sorte d'approfondir mes connaissances quotidiennement et je quitte difficilement un projet sur un message d'erreur :) .
+					</p>
+				</div>
+				<div class="col-lg-5 offset-lg-1 col-sm-12">
+					<h3 class="progress-title">Symfony</h3>
+					<div class="progress">
+						<div class="progress-bar" style="width:75%; background:#0275d8">
+							<span class="progress-icon fa fa-rocket"></span>
+						</div>
+					</div>
+					<h3 class="progress-title">PHP</h3>
+					<div class="progress">
+						<div class="progress-bar" style="width:80%; background:#5bc0de;">
+							<span class="progress-icon fa fa-rocket" style="border-color:#6495ED;"></span>
+						</div>
+					</div>
+					<h3 class="progress-title">React JS</h3>
+					<div class="progress green">
+						<div class="progress-bar" style="width:60%; background:#5cb85c ;">
+							<span class="progress-icon fa fa-rocket "></span>
+						</div>
+					</div>
+					<h3 class="progress-title">HTML5/CSS3</h3>
+					<div class="progress grey">
+						<div class="progress-bar" style="width:85%; background:#f7f7f7;">
+							<span class="progress-icon fa fa-rocket" style="border-color:grey;"></span>
+						</div>
+					</div>
+					<h3 class="progress-title">Javascript Vanilla</h3>
+					<div class="progress orange">
+						<div class="progress-bar" style="width:70%; background:#f0ad4e;">
+							<span class="progress-icon fa fa-rocket"></span>
+						</div>
+					</div>
+					<h3 class="progress-title">Api Platform</h3>
+					<div class="progress">
+						<div class="progress-bar" style="width:60%; background:#006363;">
+							<span class="progress-icon fa fa-rocket" style="border-color: #006363;color:#006363;"></span>
+						</div>
+					</div>
+					<h3 class="progress-title">Git</h3>
+					<div class="progress">
+						<div class="progress-bar" style="width:75%; background:#DB6363;">
+							<span class="progress-icon fa fa-rocket" style="border-color: #DB6363;color:#DB6363;"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="contactMe" id="contactme">
 			<h3 class="courgette text-center" style="color:black;">Me contacter</h3>
 			<div class="row justify-content-center">
