@@ -65,7 +65,7 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-12">
-						<a href="http://noel-an-fr.mon.world/funnyshop/public/index.php">
+						<a href="https://cloth-a.herokuapp.com/">
 							<img class="myImg" src="assets/picture/funnyshop.png">
 						</a>
 					</div>
